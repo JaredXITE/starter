@@ -92,3 +92,19 @@ if (population > 33) {
 } else {
   console.log(`${country} does not meet your criteria :(`);
 }
+
+const dolphinScore = ( 96 + 108 + 89) / 3;
+const koaloScore = ( 88 + 91 + 110) / 3;
+console.log(dolphinScore);
+console.log(koaloScore);
+
+if (dolphinScore > koaloScore) {
+  console.log("Dolphin's win!")
+} else if (koaloScore > dolphinScore) {
+  console.log("Koala's win!")
+}
+
+const bill = 300;
+const tip = bill <== && bill >= 50 ? bill * 0.15 :
+bill * 0.2;
+console.log("Bill is ${bill} with tip it is ${tip} total value: ${bill} + ${tip}" )
