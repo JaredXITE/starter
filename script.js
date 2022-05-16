@@ -46,14 +46,14 @@ const port = "portuguese";
 const ppl = "people";
 const spe = "speak";
 
-const intro2 = pg + "is in" + eu + "and its 11" + milli + ppl + spe + port;
+const intro2 = pg + " is in " + eu + " and its 11 " + milli  + " " + ppl  + " " + spe  + " " + port ;
 console.log(intro2);
 
 
 
 
-if (population > 33) {
-    console.log(`${country}'s population is above average`);
+if (population > 33) {  
+  console.log(`${country}'s population is above average`);
   } else {
     console.log(
       `${country}'s population is ${33 - population} million
