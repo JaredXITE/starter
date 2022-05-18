@@ -25,7 +25,7 @@ console.log(age3);
 
 // functions example
 
-/*function fruitProcessor(apples, oranges) {
+function fruitProcessor(apples, oranges) {
   const juice = `Juice with ${apples} apples and ${oranges} oranges.`
   return juice;
 }
@@ -33,7 +33,7 @@ console.log(age3);
 let fruits = fruitProcessor(5, 0)
 console.log(fruits);
 fruits = fruitProcessor(9, 0)
-console.log(fruits); */
+console.log(fruits); 
 
 
 //calling functions example
