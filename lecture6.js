@@ -11,15 +11,14 @@
 //when you input 1
 //8. Reflectonwhyweshouldusethe===operatorandtypeconversioninthis
 //situation
-
-
 const numNeighbours = Number(
-    prompt('How many neighbour countries does your country have?'),
-    );
-    if (numNeighbours === 1) {
-      console.log('Only 1 border!');
-    } else if (numNeighbours > 1) {
-      console.log('More than 1 border');
-    } else {
-      console.log('No borders');
-    }
+  prompt('How many neighbour countries does your country have?'),
+);
+
+if (numNeighbours === 1) {
+  console.log('Only 1 border!');
+} else if (numNeighbours > 1) {
+  console.log('More than 1 border');
+} else {
+  console.log('No borders');
+}

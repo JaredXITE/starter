@@ -14,9 +14,8 @@ change some variables in order to make the condition true (unless you live in Ca
 const language = "english";
 const isIsland = true;
 
-if (language === 'english' && population < 50 && !isIsland)
-{
-console.log(`You should live in ${country} :)`);
+if (language === 'english' && population < 50 && !isIsland) {
+  console.log(`You should live in ${country} :)`);
 } else {
-console.log(`${country} does not meet your criteria :(`);
+  console.log(`${country} does not meet your criteria :(`);
 }

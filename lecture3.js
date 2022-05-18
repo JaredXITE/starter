@@ -7,8 +7,6 @@
 //have less people than the average country?
 //5. Basedonthevariablesyoucreated,createanewvariable'description'
 //which contains a string with this format: 'Portugal is in Europe, and its 11 million people speak portuguese'
-
 let theNetherlandsHasMorePeopleThenFinland = true;
 let theNetherlandsHasLessPeopleThenAverage = true;
-
 let description = "Portugal is in Europe, and its 11 million people speak portuguese";

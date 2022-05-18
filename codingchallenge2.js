@@ -11,7 +11,7 @@ console.log(johnBMI);
 console.log(whohigherBMI); */
 
 if (markBMI > johnBMI) {
-    console.log("Mark's bmi ${markBMI} a higher bmi!")
+  console.log("Mark's bmi ${markBMI} a higher bmi!")
 } else {
-    console.log("John has a higher bmi!")
+  console.log("John has a higher bmi!")
 };
