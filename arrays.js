@@ -22,6 +22,8 @@ const mark = {
   }
 };
 
+
+// CODING CHALLENGE 
 const john = {
   fullname: "John Smith",
   weight: 92,
