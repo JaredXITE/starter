@@ -17,11 +17,16 @@ const mark = {
   weight: 78,
   height: 1.69,
   calcBMI: function () {
-    mark.bmi = mark.weight / mark.height ** 2;
+    const temp = mark.weight / mark.height ** 2;
+    mark.bmi = temp
     return mark.bmi;
+  },
+  address: {
+    streetName: "prinsengracht",
+    houseNumber: "4",
+    zipCode: "2424 GC",
   }
 };
-
 
 // CODING CHALLENGE 
 const john = {
@@ -36,6 +41,9 @@ const john = {
 
 mark.calcBMI ();
 john.calcBMI ();
+console.log(mark.calcBMI);
+console.log(mark.bmi)
+console.log(mark["bmi"]);
 console.log(mark.bmi);
 console.log(john.bmi);
 
@@ -45,3 +53,10 @@ if (mark.bmi > john.bmi) {
   console.log(`${john.fullname} BMI ${john.bmi} is higher then ${mark.fullname} BMI ${mark.bmi} `)
 }
 
+const key = john.fullname == "John Smith" ? "weight" : "height";
+
+console.log(john["fullname"
+
+
+
+]);
